@@ -945,9 +945,8 @@ h5.subtitle {
   margin-right: 20px;
   color: #fff;
   font-size: 25px;
-  width: 50px;
-  height: 50px;
-  background: #0f0e3b;
+  width: 100px;
+  height: 100px;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -2110,3 +2109,73 @@ CONTACT PAGE
   background: url("https://images.pexels.com/photos/1116050/pexels-photo-1116050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed 50% 50% no-repeat;
   background-size: cover;
 }
+
+.checked {
+  color: orange;
+}
+
+
+.heading{
+  font-size:20px;
+  font-weight:600;
+  color:#3D5AFE;
+
+}
+
+.line1{
+  color:#000;
+  font-size:12px;
+
+}
+ .line2{
+  color:#000;
+  font-size:12px;
+  
+}
+ .line3{
+  color:#000;
+  font-size:12px;
+  
+}
+
+.cards{
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+
+}
+  
+
+
+.cards:hover{
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+.button1 {font-size: 15px; color: #ffffff; background-color: #0f0e3b; padding: 2%; font-style: bold; border-radius: 25px;}
+
+
+.owl-2-style .owl-nav {
+  display: none; }
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px; }
+  .owl-2-style .owl-dots .owl-dot {
+    display: inline-block; }
+    .owl-2-style .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 15px;
+      height: 3px;
+      border-radius: 0px;
+      background: #cccccc;
+      -webkit-transition: 0.1s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.1s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.1s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      margin: 3px; }
+    .owl-2-style .owl-dots .owl-dot.active span {
+      background: #007bff; }
+    .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+      outline: none; }
